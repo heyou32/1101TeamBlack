@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: 42b890574dd4734498d920399e198226
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Arm_transformation_ver01(Clone)
+      parentName: 
+      position: {x: -0.2303174, y: 1.2912881, z: 0.38691595}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.199
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.08364149, y: -0.02064877, z: 0.18409622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.200
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.10896703, y: -0.010868724, z: 0.1945627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.070
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.059195504, y: 0.04652404, z: 0.21243398}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.101
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.069539055, y: 0.02204826, z: 0.21023875}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.201
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.10043247, y: 0.06911666, z: 0.24155155}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.202
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.0831209, y: 0.059588846, z: 0.23231009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.074
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.12541227, y: -0.0035825768, z: 0.19557521}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface14
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.06966717, y: 0.05332595, z: 0.22326656}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface13
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.06692673, y: 0.051859736, z: 0.23151523}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface12
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.09172676, y: 0.0014689596, z: 0.20885475}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface11
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.0919685, y: -0.00050095, z: 0.21498775}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface10
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.08336767, y: 0.029419245, z: 0.21984665}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface9
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.08178829, y: 0.027523417, z: 0.22736484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface8
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.09756131, y: -0.015470889, z: 0.1933731}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface7
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.09839638, y: -0.01640076, z: 0.19927394}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.05571628, y: 0.07781776, z: 0.16048118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface5
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.04955544, y: 0.084479064, z: 0.1595648}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.071
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.07233822, y: -0.029431539, z: 0.1686985}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.066
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.042256787, y: 0.03161445, z: 0.14555772}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface25
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.07758783, y: -0.017830431, z: 0.16635849}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface24
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.065833256, y: 0.021814875, z: 0.18424}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface23
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.071695246, y: 0.0017976338, z: 0.17719479}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface22
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.055493597, y: -0.011526187, z: 0.1939688}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface21
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.042586494, y: 0.010133434, z: 0.1971929}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface20
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.05017984, y: 0.038700175, z: 0.20290558}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface19
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.06087128, y: -0.010242694, z: 0.19569984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface18
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.052023377, y: 0.013053814, z: 0.20652255}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface17
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.06263869, y: -0.028032612, z: 0.17868473}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface16
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.035379194, y: 0.034853663, z: 0.20334435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface15
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.05558828, y: 0.041203227, z: 0.1833847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.104
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.09987748, y: 0.035839077, z: 0.2292032}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.204
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.105600365, y: 0.0064965016, z: 0.21319829}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.198
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.07873603, y: -0.002138447, z: 0.20068996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.203
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.1266021, y: 0.0142358355, z: 0.21877086}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.208
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.121163316, y: 0.045278087, z: 0.23844883}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.060
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.050585635, y: -0.030891918, z: 0.14977978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.007
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.031961665, y: -0.026086964, z: 0.11974164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.077
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.030152144, y: 0.03247619, z: 0.18683551}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.076
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.026539626, y: 0.030685954, z: 0.17168774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.062
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.03303389, y: 0.0015969045, z: 0.17104952}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.065
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.043051522, y: 0.045081858, z: 0.18147808}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.080
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.0693852, y: -0.018034976, z: 0.15453236}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.079
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.056284126, y: -0.0030102197, z: 0.1403826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.087
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.04116856, y: -0.033326764, z: 0.13490197}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.078
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.06535256, y: 0.0149497185, z: 0.1627704}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.207
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.0086593265, y: -0.013978809, z: 0.11830979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.206
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.027043557, y: 0.026048731, z: 0.11668305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: hand_anatomy_mechanical.206
+      position: {x: -0.0066044615, y: -0.012763519, z: -0.01921173}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: hand_anatomy_mechanical.206
+      position: {x: -0.0005352497, y: -0.007581558, z: -0.009029121}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface3
+      parentName: hand_anatomy_mechanical.206
+      position: {x: -0.0051165773, y: -0.010525894, z: -0.0143381115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface4
+      parentName: hand_anatomy_mechanical.206
+      position: {x: 0.0007929992, y: 0.016471328, z: 0.01574276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.209
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.055627856, y: 0.0073794513, z: 0.1848458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.005
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.003068833, y: -0.010724796, z: 0.099682055}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.075
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.03415588, y: 0.05000506, z: 0.14110246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.073
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.06346147, y: 0.08785011, z: 0.16709621}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.086
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.0025588297, y: 0.020906977, z: 0.09719895}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.083
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.0083873505, y: -0.00826733, z: 0.12556836}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.082
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.00391335, y: 0.022805247, z: 0.13044503}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.093
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: -0.0584643, y: -0.07831738, z: -0.1332938}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.099
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: -0.031388905, y: -0.018129047, z: -0.10195437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.095
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: -0.032022033, y: -0.07503265, z: -0.05643234}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.098
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: -0.039966054, y: -0.052668843, z: -0.05659039}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.096
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: -0.08733062, y: -0.022038732, z: -0.09607988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.094
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: -0.0389836, y: -0.017153896, z: -0.07286611}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.058
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.0005429028, y: -0.04833832, z: 0.03405953}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.190
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.005388026, y: -0.04182372, z: 0.08639344}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.004
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: -0.002104974, y: 0.01632629, z: 0.075747795}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.084
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: -0.0012070037, y: -0.011349033, z: 0.07279322}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.010
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.007115903, y: -0.0077058068, z: 0.10026284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group3
+      parentName: Arm_transformation_ver01(Clone)
+      position: {x: 0.2303174, y: -1.2912881, z: -0.38691595}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.057
+      parentName: group3
+      position: {x: -0.16915369, y: 1.3763227, z: 0.55366987}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.044
+      parentName: group3
+      position: {x: -0.16375457, y: 1.309214, z: 0.59306496}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.042
+      parentName: group3
+      position: {x: -0.17674495, y: 1.3331796, z: 0.5958492}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.046
+      parentName: group3
+      position: {x: -0.15665667, y: 1.2861404, z: 0.58325005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.040
+      parentName: group3
+      position: {x: -0.14888586, y: 1.267668, z: 0.5715313}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.025
+      parentName: group3
+      position: {x: -0.2125033, y: 1.3108038, z: 0.5070566}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.015
+      parentName: group3
+      position: {x: -0.20276612, y: 1.3000113, z: 0.51348096}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.142
+      parentName: group3
+      position: {x: -0.19390972, y: 1.2824593, z: 0.50669485}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.134
+      parentName: group3
+      position: {x: -0.21598838, y: 1.2834729, z: 0.5210106}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.131
+      parentName: group3
+      position: {x: -0.1912679, y: 1.297832, z: 0.5184994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.144
+      parentName: group3
+      position: {x: -0.18818521, y: 1.2906177, z: 0.537175}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.146
+      parentName: group3
+      position: {x: -0.18647476, y: 1.282344, z: 0.5350799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.129
+      parentName: group3
+      position: {x: -0.17835906, y: 1.3014244, z: 0.5364433}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.141
+      parentName: group3
+      position: {x: -0.17592983, y: 1.3009503, z: 0.5591153}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.022
+      parentName: group3
+      position: {x: -0.18901153, y: 1.3494574, z: 0.532976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.128
+      parentName: group3
+      position: {x: -0.19808646, y: 1.3023307, z: 0.50906694}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.001
+      parentName: group3
+      position: {x: -0.2641666, y: 1.2487227, z: 0.17827827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.145
+      parentName: group3
+      position: {x: -0.26190516, y: 1.2428441, z: 0.17146234}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.017
+      parentName: group3
+      position: {x: -0.30821759, y: 1.2528447, z: 0.20858099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.149
+      parentName: group3
+      position: {x: -0.27193776, y: 1.2525634, z: 0.18966328}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.153
+      parentName: group3
+      position: {x: -0.23606902, y: 1.2723217, z: 0.44943967}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.008
+      parentName: group3
+      position: {x: -0.29864734, y: 1.2648026, z: 0.21219711}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.048
+      parentName: group3
+      position: {x: -0.30021846, y: 1.2476913, z: 0.26894292}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.049
+      parentName: group3
+      position: {x: -0.27264744, y: 1.2713866, z: 0.19322215}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.016
+      parentName: group3
+      position: {x: -0.30644387, y: 1.2526008, z: 0.20918964}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.014
+      parentName: group3
+      position: {x: -0.29190093, y: 1.2629303, z: 0.21452257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.006
+      parentName: group3
+      position: {x: -0.14978282, y: 1.3534584, z: 0.61691517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.041
+      parentName: group3
+      position: {x: -0.13138707, y: 1.3630753, z: 0.62649715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.043
+      parentName: group3
+      position: {x: -0.11198524, y: 1.3341671, z: 0.62301695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.009
+      parentName: group3
+      position: {x: -0.13120675, y: 1.3243519, z: 0.61423767}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.012
+      parentName: group3
+      position: {x: -0.12428141, y: 1.2971793, z: 0.5985032}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.045
+      parentName: group3
+      position: {x: -0.104464754, y: 1.3052106, z: 0.6047444}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.039
+      parentName: group3
+      position: {x: -0.107730865, y: 1.2877275, z: 0.5821981}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_anatomy_mechanical.003
+      parentName: group3
+      position: {x: -0.12146284, y: 1.2793503, z: 0.5810331}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

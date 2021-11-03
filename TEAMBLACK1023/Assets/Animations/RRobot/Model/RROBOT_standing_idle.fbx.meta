@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: f768c09590019914487e37f126f94c5e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'RROBOT_chest'
+      : rotation error = 7.201159 deg\n\t'RROBOT_shoulder' : rotation error = 64.968773
+      deg\n\t'RROBOT_shoulder 1' : rotation error = 58.271683 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'RROBOT_chest' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'RROBOT_shoulder' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'RROBOT_shoulder
+      1' is inbetween humanoid transforms and has rotation animation that will be
+      discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 8630341f49a6bc840b6c5b301a1e6dad
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: RROBOT_hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_hip_L_leg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_hip_R_leg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_hip_L_leg_L_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_hip_R_leg_R_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_hip_L_leg_L_knee_L_foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_R_foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_spine01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_L_neck01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_L_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_L_scapular
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_R_scapular
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_L_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_R_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_L_hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_R_hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_L_ear_connect
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RROBOT_R_ear_connect
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: RROBOT_standing_idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RROBOT
+      parentName: RROBOT_standing_idle(Clone)
+      position: {x: -0, y: 0.12103503, z: -0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RRBOT_arm_connect01
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RRBOT_arm_connect02
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RRBOT_arm_connect03
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RRBOT_chest
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RRBOT_chest_pelvis
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RRBOT_pelvis
+      parentName: RROBOT
+      position: {x: -0, y: -0.12198412, z: 0.0009793548}
+      rotation: {x: -0.048414744, y: 0, z: -0, w: 0.99882734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RRBOT_head
+      parentName: RROBOT
+      position: {x: -0.00006214857, y: 0.047167685, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: RRBOT_head
+      position: {x: 0.00006214857, y: -0.17349006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: RRBOT_head
+      position: {x: 0.00006214857, y: -0.17349006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ear_connect
+      parentName: RROBOT
+      position: {x: -0, y: -0.12632237, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_leg
+      parentName: RROBOT
+      position: {x: -0, y: -0.12103503, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_foot
+      parentName: RROBOT
+      position: {x: -0, y: -0.12103503, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ear
+      parentName: RROBOT
+      position: {x: -0, y: -0.12632237, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_arm
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_knee
+      parentName: RROBOT
+      position: {x: -0, y: -0.12103503, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_arm_ciecle01
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_arm_ciecle02
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_arm_ciecle03
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere1
+      parentName: RROBOT
+      position: {x: -0, y: -0.12103503, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_leg
+      parentName: RROBOT
+      position: {x: -0, y: -0.12103503, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: pSphere2
+      parentName: RROBOT
+      position: {x: -0, y: -0.12103503, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: R_knee
+      parentName: RROBOT
+      position: {x: -0, y: -0.12103503, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: R_foot
+      parentName: RROBOT
+      position: {x: -0, y: -0.12103503, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: R_arm
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: R_ear_connect
+      parentName: RROBOT
+      position: {x: -0, y: -0.12632237, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: R_ear
+      parentName: RROBOT
+      position: {x: -0, y: -0.12632237, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: RRBOT_arm_connect04
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: RRBOT_arm_connect05
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: RRBOT_arm_connect06
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: L_arm_ciecle04
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: L_arm_ciecle05
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: L_arm_ciecle06
+      parentName: RROBOT
+      position: {x: -1.1093356e-33, y: -0.12632237, z: -0.0046021524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: RROBOT_hip
+      parentName: RROBOT_standing_idle(Clone)
+      position: {x: -0.00007081923, y: 0.102650434, z: 0.0029955273}
+      rotation: {x: 0.00000000700261, y: -0.0000000019756006, z: 0.36023924, w: 0.93285996}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: RROBOT_hip_L_leg
+      parentName: RROBOT_hip
+      position: {x: -0.014456066, y: -0.00007284324, z: -0.0034401182}
+      rotation: {x: 0.014183068, y: -0.023029642, z: 0.28122783, w: 0.95925987}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: RROBOT_hip_L_leg_L_knee
+      parentName: RROBOT_hip_L_leg
+      position: {x: -0.011864915, y: 0.00008143312, z: 0.0019326559}
+      rotation: {x: -0.000000002325076, y: 0.0000000080464275, z: 0.18403043, w: 0.9829205}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000002}
+    - name: RROBOT_hip_L_leg_L_knee_L_foot
+      parentName: RROBOT_hip_L_leg_L_knee
+      position: {x: -0.061660394, y: -0.00000001259016, z: 0.0015074816}
+      rotation: {x: 0.0013506425, y: 0.02701295, z: -0.053347237, w: 0.9982097}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1}
+    - name: RROBOT_L_ball
+      parentName: RROBOT_hip_L_leg_L_knee_L_foot
+      position: {x: -0.0098906625, y: 2.220446e-18, z: 0}
+      rotation: {x: 0.00000000414806, y: 0.000000004083748, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RROBOT_hip_R_leg
+      parentName: RROBOT_hip
+      position: {x: 0.0013232247, y: -0.014395563, z: -0.0034401198}
+      rotation: {x: 0.5212759, y: -0.8529595, z: -0.0075197215, w: -0.025979647}
+      scale: {x: 0.99999994, y: 0.9999996, z: 1.0000001}
+    - name: RROBOT_hip_R_leg_R_knee
+      parentName: RROBOT_hip_R_leg
+      position: {x: 0.0118649155, y: -0.00008138996, z: -0.0019326512}
+      rotation: {x: -4.4408916e-16, y: -4.4408916e-16, z: 0.18403043, w: 0.9829206}
+      scale: {x: 1.0000021, y: 1.0000024, z: 1.0000045}
+    - name: RROBOT_R_foot
+      parentName: RROBOT_hip_R_leg_R_knee
+      position: {x: 0.061660327, y: 0.0000000080902005, z: -0.0015074646}
+      rotation: {x: 0.0013506223, y: 0.027012305, z: -0.05334539, w: 0.99820983}
+      scale: {x: 1, y: 1.0000001, z: 1.0000006}
+    - name: RROBOT_R_ball
+      parentName: RROBOT_R_foot
+      position: {x: 0.009890679, y: -2.220446e-18, z: -4.382028e-19}
+      rotation: {x: -0.0000000041159036, y: -0.0000000041159027, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.9999997}
+    - name: RROBOT_spine01
+      parentName: RROBOT_hip
+      position: {x: 0.007944573, y: 0.009248784, z: 0.000000007382803}
+      rotation: {x: -0.0000000057569207, y: -0.0000000030937044, z: -0.9143592, w: 0.40490398}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1}
+    - name: RROBOT_chest
+      parentName: RROBOT_spine01
+      position: {x: -0.021287812, y: 0.0000000021207538, z: -6.328466e-11}
+      rotation: {x: -0.000000001414842, y: -0.0000000037300385, z: 0.7071068, w: 0.70710677}
+      scale: {x: 0.9999984, y: 0.9999985, z: 1.0000001}
+    - name: RROBOT_L_scapular
+      parentName: RROBOT_chest
+      position: {x: -0.02209417, y: 0.0000000028806706, z: -9.159998e-11}
+      rotation: {x: 0.000000014551915, y: 0.000000007275958, z: 1.6560159e-17, w: 1}
+      scale: {x: 0.9999995, y: 0.99999976, z: 1}
+    - name: RROBOT_shoulder
+      parentName: RROBOT_L_scapular
+      position: {x: -0.0041393456, y: -0.00000003548225, z: -7.2938966e-10}
+      rotation: {x: -0.000000011641532, y: -0.000000007275958, z: 2.2499296e-18, w: 1}
+      scale: {x: 1.0000005, y: 0.99999976, z: 1}
+    - name: RROBOT_L_elbow
+      parentName: RROBOT_shoulder
+      position: {x: -0.0037629555, y: 0.000000038153807, z: 6.771944e-10}
+      rotation: {x: 0.000000011641531, y: 0.0000000072759585, z: -0.000000059604645, w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1}
+    - name: RROBOT_L_hand
+      parentName: RROBOT_L_elbow
+      position: {x: -0.054123394, y: 0.000000023116295, z: -0.000000028401331}
+      rotation: {x: -0.000000014901159, y: 0.0000000074505797, z: 0.3602394, w: 0.9328599}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: RROBOT_L_neck01
+      parentName: RROBOT_chest
+      position: {x: -0.00013590876, y: 0.013098348, z: -3.7797607e-10}
+      rotation: {x: 5.1448795e-10, y: 0.000000003601416, z: -0.7071068, w: 0.70710677}
+      scale: {x: 1.0000021, y: 1.000002, z: 1}
+    - name: RROBOT_L_head
+      parentName: RROBOT_L_neck01
+      position: {x: -0.044416238, y: -5.99518e-10, z: -0.0000000025538454}
+      rotation: {x: 6.4510713e-10, y: -3.3650016e-10, z: 0.46248186, w: 0.8866288}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: RROBOT_L_ear_connect
+      parentName: RROBOT_L_head
+      position: {x: -0.029898617, y: -1.7763568e-17, z: 0.00784273}
+      rotation: {x: 7.996754e-10, y: 0.0000000027983649, z: -0.27476615, w: 0.9615111}
+      scale: {x: 0.9999996, y: 1.0000007, z: 1}
+    - name: RROBOT_L_ear
+      parentName: RROBOT_L_ear_connect
+      position: {x: -0.0067913127, y: 8.881784e-18, z: 0.00012065738}
+      rotation: {x: 1.6943397e-10, y: 0.0000000014779065, z: -0.07315299, w: 0.99732083}
+      scale: {x: 1.0000006, y: 1.000001, z: 1}
+    - name: RROBOT_L_ear_end
+      parentName: RROBOT_L_ear
+      position: {x: -0.04012348, y: 2.6645352e-17, z: -0.018219264}
+      rotation: {x: 6.399659e-10, y: -4.410622e-10, z: 0.6100873, w: 0.7923342}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: RROBOT_R_ear_connect
+      parentName: RROBOT_L_head
+      position: {x: 0.010318624, y: 0.028061701, z: 0.00784273}
+      rotation: {x: 0.6313077, y: 0.7755324, z: -0.0000000013384226, w: -0.000000002965896}
+      scale: {x: 1.0000005, y: 1.0000013, z: 1.0000015}
+    - name: RROBOT_R_ear
+      parentName: RROBOT_R_ear_connect
+      position: {x: 0.0067911553, y: 0.00000014443707, z: -0.00012066}
+      rotation: {x: -0.0000000014512931, y: -0.0000000032219412, z: -0.07315311, w: 0.9973208}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000011}
+    - name: RROBOT_R_ear_end
+      parentName: RROBOT_R_ear
+      position: {x: 0.04012364, y: -0.00000008889987, z: 0.01821929}
+      rotation: {x: 0.0000000031937906, y: 0.0000000047041744, z: 0.6100872, w: 0.79233426}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000007}
+    - name: RROBOT_R_scapular
+      parentName: RROBOT_chest
+      position: {x: 0.022094185, y: -0.00000004166863, z: 1.5426552e-10}
+      rotation: {x: 1, y: -0.000000059604645, z: 0.0000000014551912, w: -0.0000000029103837}
+      scale: {x: 0.99999994, y: 0.9999994, z: 1}
+    - name: RROBOT_shoulder 1
+      parentName: RROBOT_R_scapular
+      position: {x: 0.0047604, y: -0.000000003823504, z: 4.029728e-10}
+      rotation: {x: -0, y: -0.000000004365574, z: -0.000000059604645, w: 1}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000001}
+    - name: RROBOT_R_elbow
+      parentName: RROBOT_shoulder 1
+      position: {x: 0.0031418982, y: -0.000000007626153, z: -0.000000006743946}
+      rotation: {x: -8.673615e-17, y: 0.0000000014551911, z: -0, w: 1}
+      scale: {x: 0.9999995, y: 1.0000037, z: 1.0000027}
+    - name: RROBOT_R_hand
+      parentName: RROBOT_R_elbow
+      position: {x: 0.0541234, y: 0.00000003727789, z: -0.000000012041697}
+      rotation: {x: -0, y: -0, z: 0.36023927, w: 0.93285996}
+      scale: {x: 0.99999934, y: 1.000001, z: 1.0000004}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
