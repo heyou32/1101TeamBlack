@@ -5,9 +5,10 @@ using UnityEngine;
 public class CircuitBoard : MonoBehaviour
 {
 
-    [SerializeField] GameObject leftHand;
+    [SerializeField] GameObject leftHand, rightHand;
     [SerializeField] GameObject rrbot;
     Animator rrobotAnim;
+    AudioSource rrobotAudio;
     [Header("")]
 
     [SerializeField] GameObject curcuitBoard;
@@ -25,12 +26,13 @@ public class CircuitBoard : MonoBehaviour
 
     [SerializeField] GameObject countdownObj;
 
-    public int r;
+    int r;
 
     void Awake()
     {
         countdownObj.SetActive(false);
         rrobotAnim = rrbot.GetComponent<Animator>();
+        rrobotAudio = rrbot.GetComponent<AudioSource>();
 
         r = UnityEngine.Random.Range(0, subParts.Length);
         transform.position = subParts[r].transform.position;
@@ -55,7 +57,7 @@ public class CircuitBoard : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == leftHand)
+        if (other.gameObject == leftHand || other.gameObject == rightHand)
         {
             InteractionClear();
         }
@@ -63,6 +65,9 @@ public class CircuitBoard : MonoBehaviour
     void InteractionClear()
     {
         rrobotAnim.Play("Clapping");
+        rrobotAudio.Play();
+
+        // Invoke("EndingMent", 6);
         mainpartSFX.Play();
         mainpartAnim.enabled = true;
         subpartAnim.enabled = false;
@@ -73,5 +78,9 @@ public class CircuitBoard : MonoBehaviour
         doorSFX.Play();
         doorAnim.enabled = true;
         countdownObj.SetActive(true);
+    }
+    void EndingMent()
+    {
+
     }
 }

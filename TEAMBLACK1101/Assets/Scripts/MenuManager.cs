@@ -19,6 +19,14 @@ public class MenuManager : MonoBehaviour
     [SerializeField] Transform audioUI;
     AudioSource narration;
     [SerializeField] Animator rrobot;
+
+    [Header("")]
+   public NowScene nowScene;
+    public enum NowScene
+    {
+        S1,S2,S3
+    }
+
     void Start()
     {
         rightHand = xriInputAction.FindActionMap("XRI RightHand").FindAction("UI Press");
@@ -35,7 +43,16 @@ public class MenuManager : MonoBehaviour
 
         PlayNarration();
 
-
+        switch (nowScene)
+        {
+            case NowScene.S1:
+                break;
+            case NowScene.S2:
+                break;
+            case NowScene.S3:
+                RestarOrQuit();
+                break;
+        }
     }
 
     void SelectScene()
@@ -68,6 +85,7 @@ public class MenuManager : MonoBehaviour
 
     void PlayNarration()
     {
+        //왼손 트리거로 선택하면 나레이션 재생
         if (leftHand.triggered)
         {
             if (leftRayInteractor.TryGetCurrent3DRaycastHit(out RaycastHit hit) && hit.transform == audioUI)
@@ -77,8 +95,22 @@ public class MenuManager : MonoBehaviour
             }
         }
     }
-    public void S1Select()
+
+    [Header("Only use in S3")]
+    public GameObject restratButton, exitButton;
+    void RestarOrQuit()
     {
-        print(55);
+        //S3 인터랙션과 에니메이션 끝나면 활성화됨
+        if (leftHand.triggered&& leftRayInteractor.TryGetCurrent3DRaycastHit(out RaycastHit hit))
+        {
+            if (hit.transform.gameObject == restratButton)
+            {
+                SceneManager.LoadScene(0);
+            }
+            if(hit.transform.gameObject== exitButton)
+            {
+                Application.Quit();
+            }
+        }
     }
 }
